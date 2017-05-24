@@ -1,0 +1,34 @@
+body
+{
+
+background-image:url("imag/imagecv.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+}
+img
+{
+
+border-radius: 20px;
+}
+div #moi
+{
+text-align: left;
+width:500px;
+outline-style: groove;
+
+}
+div
+{
+font-family:fantasy;
+font-style:italic;
+color:orange;
+text-align:left;
+margin-left: 500px;
+}
+
+ul
+{
+text-align:center;
+}
+
