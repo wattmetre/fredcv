@@ -4,31 +4,41 @@ body
 background-image:url("imag/imagecv.jpg");
 background-repeat:no-repeat;
 background-size:cover;
-color:white;
+
+}
+.box
+{
+
+margin-left: 200px;
 }
 img
 {
-
+float: right;
 border-radius: 20px;
+margin: 10px 200px 10px 1000px;
 }
-div #moi
+ #moi
 {
-text-align: left;
-width:500px;
-outline-style: groove;
-
+float: right;
+margin-left: 100px;
+}
+h1
+{
+text-align: center;
+font-size: 50px;
+font-style: italic;
 }
 div
 {
-font-family:fantasy;
+
 font-style:italic;
-color:orange;
-text-align:left;
-margin-left: 500px;
+
+
+
 }
 
 ul
 {
-text-align:center;
+
 }
 

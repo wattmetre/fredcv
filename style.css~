@@ -4,39 +4,41 @@ body
 background-image:url("imag/imagecv.jpg");
 background-repeat:no-repeat;
 background-size:cover;
-color:white;
+
+}
+.box
+{
+
+margin-left: 200px;
 }
 img
 {
-border:20px solid purple;
+float: right;
 border-radius: 20px;
-padding: 10px;
-position: relative;
-float: left;
+margin: 10px 200px 10px 1000px;
 }
-div #moi
+ #moi
 {
-text-align: left;
-width:500px;
-border: 2px solid purple;
-padding: 10px;
-margin: 20px;
-position: relative;
-left: 30px;
-outline-style: groove;
-border-radius: 25px;
+float: right;
+margin-left: 100px;
+}
+h1
+{
+text-align: center;
+font-size: 50px;
+font-style: italic;
 }
 div
 {
-font-family:fantasy;
+
 font-style:italic;
-color:orange;
-text-align:left;
-margin-left: 500px;
+
+
+
 }
 
 ul
 {
-text-align:center;
+
 }
 
