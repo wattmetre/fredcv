@@ -9,18 +9,16 @@ background-size:cover;
 .box
 {
 
-margin-left: 200px;
+margin:0 200px 0 200px;
 }
 img
 {
-float: right;
+margin-left: 150px;
+display: block;
+margin: auto;
 border-radius: 20px;
-margin: 10px 200px 10px 1000px;
-}
- #moi
-{
-float: right;
-margin-left: 100px;
+overflow:inherit;
+
 }
 h1
 {
@@ -30,15 +28,19 @@ font-style: italic;
 }
 div
 {
-
 font-style:italic;
-
-
-
 }
-
-ul
+#profil
 {
+border-style: groove;
+background-color: grey;
+float: right;
+border: 2px solid yellow;
+width:30%; 
+border-radius: 30px;
+display: block;
+
 
 }
+
 
