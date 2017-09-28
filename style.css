@@ -9,27 +9,28 @@ background-size: cover;
 .box,.box1 ul li {
 line-height: 2em;
 }
-
 .box1{
 display:grid;
 grid-template-columns:1fr 1fr;
-
 }
 h1,h2{
 text-align: center;
-
 }
 #competencesG, #competencesN,#autres {
 background-color: gainsboro;
 margin: 5px;
 padding: 2em;
-
 }
 #formation,#parcours_professionnel{
 background-color:lavender;
 margin: 2em;
 padding: 2em;
-
+}
+#parcours_professionnel ul strong{
+color: red;
+}
+#formation ul strong{
+color: red;
 }
 #jaime ul{
 list-style-type: none;
@@ -54,14 +55,7 @@ float: left;
 float: right;
 margin-right: 100px;
 }
-aside {
-
-}
-
-
-
 .intro{
-line-height: 1.5em;
 text-align: center;
 margin-left: 150px;
 width: 50%;
@@ -70,15 +64,18 @@ width: 50%;
 }
 h1{
 margin: 2em;
-
 font-style: italic;
 font-size: 3em;
 }
 #jaime{
 background-color:gainsboro;
-margin: 2em;
+margin-left: 10em;
 padding: 2em;
-width: 35%;
-line-height: 1.5em;
+width: 55%;
+line-height: 2em;
+}
+
+
+
 
 }
