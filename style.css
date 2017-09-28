@@ -1,46 +1,85 @@
-body
-{
+.box{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+}
+html {
+background-image:url(imag/imagecv.jpeg);
+background-size: cover;
+}
+.box,.box1 ul li {
+line-height: 2em;
+}
 
-background-image:url("imag/imagecv.jpg");
-background-repeat:no-repeat;
-background-size:cover;
+.box1{
+display:grid;
+grid-template-columns:1fr 1fr;
 
 }
-.box
-{
-
-margin:0 200px 0 200px;
-}
-img
-{
-margin-left: 150px;
-display: block;
-margin: auto;
-border-radius: 20px;
-overflow:inherit;
-
-}
-h1
-{
+h1,h2{
 text-align: center;
-font-size: 50px;
-font-style: italic;
+
 }
-div
-{
-font-style:italic;
+#competencesG, #competencesN,#autres {
+background-color: gainsboro;
+margin: 5px;
+padding: 2em;
+
+}
+#formation,#parcours_professionnel{
+background-color:lavender;
+margin: 2em;
+padding: 2em;
+
+}
+#jaime ul{
+list-style-type: none;
+}
+#parcours_professionnel ul{
+list-style-type: none;
+}
+#formation ul{
+list-style-type: none;
 }
 #profil
 {
-border-style: groove;
-background-color: grey;
+background-color: lavender;
+border-color: black;
+border-style: ridge;
+margin: 20px;
+width: 50%;
+line-height: 2em;
+float: left;
+}
+#profil img{
 float: right;
-border: 2px solid yellow;
-width:30%; 
-border-radius: 30px;
-display: block;
-
+margin-right: 100px;
+}
+aside {
 
 }
 
+
+
+.intro{
+line-height: 1.5em;
+text-align: center;
+margin-left: 150px;
+width: 50%;
+ color: white;
+ font-size: 1.5em;
+}
+h1{
+margin: 2em;
+
+font-style: italic;
+font-size: 3em;
+}
+#jaime{
+background-color:gainsboro;
+margin: 2em;
+padding: 2em;
+width: 35%;
+line-height: 1.5em;
+
+}
 
